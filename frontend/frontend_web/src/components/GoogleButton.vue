@@ -11,7 +11,7 @@ const router = useRouter();
 const googleLoginBtn = ref(null);
 onMounted(() => {
   window.google.accounts.id.initialize({
-    client_id: "928580797199-tb6932t2l8bj7s5rtjsgpksc4ht0jbd7.apps.googleusercontent.com",
+    client_id: "tu_clave",
     callback: onSuccess,
     context: "signin",
     auto_select: false,
